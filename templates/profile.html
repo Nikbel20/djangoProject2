@@ -1,0 +1,57 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="{%static '512.jpg' %}" type="image/x-icon">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body style="background: khaki">
+<style>
+    .d1 {
+        position: absolute;
+        top: 20vh;
+        left: 60vw;
+        height: 5vh;
+        width: 30vw;
+        font-size: 25px;
+        background: lightblue;
+        border-radius: 15px;
+        padding: 1rem;
+
+    }
+    img {
+        position: absolute;
+        left: 10vw;
+        top: 20vh;
+        height: 30vh;
+        width: 20vw;
+        border-radius: 50vw;
+    }
+    button {
+        position: absolute;
+        left: 60vw;
+        top: 30vh;
+        height: 8vh;
+        width: 9vw;
+        font-size: 25px;
+        background: darkcyan;
+        border-radius: 30vw;
+    }
+     .avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+</style>
+
+<!--<img src="Image" alt="Avatar" class ="Img">
+!-->
+<div class="d1">Ваше имя {{ user }}</div>
+
+<img src="">  
+
+<form action="" method="post"><button>Выйти</button></form>
+</body>
+</html>
